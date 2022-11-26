@@ -1,0 +1,30 @@
+.conteiner_menu-title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner_menu-title > h1 {
+  margin: 1rem 0;
+  font-size: clamp(5rem, 17vw, 13rem);
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteiner_menu-title > h1::before {
+  content: '';
+  width: 80%;
+  height: 2px;
+  display: block;
+  background: linear-gradient(to right, #111, rgba(255, 255, 255, 0.263), #111);
+}
+.conteiner_menu-title > h1::after {
+  content: '';
+  width: 80%;
+  height: 2px;
+  display: block;
+  background: linear-gradient(to right, #111, rgba(255, 255, 255, 0.263), #111);
+}

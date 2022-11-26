@@ -1,0 +1,39 @@
+.container_menu-bar {
+  height: 15%;
+  width: 100%;
+}
+
+.perfil-photo {
+  background: linear-gradient(45deg, rgb(217, 89, 20), rgb(233, 31, 183), rgb(112, 30, 90));
+  border-radius: 50%;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil-photo > span {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.menu-user {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-user .menu-user-link {
+  min-width: 100px;
+  text-align: center;
+  
+}
+
+.menu-user a {
+  text-decoration: none;
+}
+
